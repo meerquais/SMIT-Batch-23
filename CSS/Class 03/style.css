@@ -1,0 +1,77 @@
+p {
+    text-transform: lowercase;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+
+    /* text-decoration: overline dashed; */
+    /* text-decoration: underline; */
+    line-height: 25px;
+    /* word-spacing: 15px; */
+    /* letter-spacing: 10px; */
+    text-align: center;
+    /* text-shadow: -5px -5px 3px red; */
+}
+
+h1 {
+    text-align: center;
+    /* text-align: center; */
+}
+
+/* p::first-letter {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: orangered;
+    text-shadow: -2px -2px 4px black;
+} */
+
+
+
+p::first-line {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: orangered;
+    text-shadow: -2px -2px 4px black;
+}
+
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+/* input:focus {
+    background-color: rgb(225, 219, 219);
+    color: red;
+    font-size: 16px;
+} */
+
+button:active {
+    background-color: lightskyblue;
+}
+
+h1:active {
+    color: red;
+}
+
+button {
+    background-color: blue;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+.box {
+    background-color: red;
+    /* width: 500px; */
+    /* min-width: 400px; */
+    max-width: 400px;
+    text-align: center;
+    /* height: 400px; */
+    /* min-height: 400px; */
+    max-height: 400px;
+    overflow-y: scroll;
+}
