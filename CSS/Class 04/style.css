@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+}
+
+.container {
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    height: 200px;
+    /* min-width: 500px; */
+    /* max-width: 500px; */
+    /* height: 200px; */
+    /* min-height: 200px; */
+    /* max-height: 200px; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* border: 1px solid red; */
+    /* border-top: 1px solid blue;
+    border-bottom: 2px solid green;
+    border-right: 3px solid yellow;
+    border-left: 4px solid blueviolet; */
+    border: 1px solid #000;
+    /* margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px; */
+    /* margin: 10px 0px 0px 15px; */
+    /* margin: 10px 40px; */
+    /* margin: 30px; */
+    /* padding: 5px 0px 0px 5px; */
+    /* margin-left: 800px; */
+    margin: 0px auto;
+    /* display: none; */
+    visibility: hidden;
+
+
+}
