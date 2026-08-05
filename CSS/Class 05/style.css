@@ -1,0 +1,89 @@
+.container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: inline; */
+}
+
+
+.box1 {
+    display: inline-block;
+}
+
+.box2 {
+    display: inline-block;
+}
+
+.box3 {
+    display: inline-block;
+
+}
+
+.container1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    box-shadow: 2px 4px 3px 5px grey;
+    /* border-radius: 4px 10px 10px 5px; */
+    border-radius: 50%;
+}
+
+.container1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* ul {
+    list-style: none;
+    list-style-type: circle;
+    list-style-position: inside; 
+} */
+/* 
+.ul1 li::marker {
+    content: "🤑";
+}
+
+.ul2 li::marker {
+    content: "🦿";
+} */
+
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    /* background-color: rgb(194, 211, 218); */
+    empty-cells: hide;
+    /* border-collapse: collapse; */
+    border-spacing: 20px;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+td,
+th {
+    padding: 4px;
+    border-top: 1px solid gray;
+
+}
+
+
+tr:hover {
+    background-color: rgb(200, 196, 196);
+
+}
+
+td:hover,
+th:hover {
+    background-color: rgb(127, 125, 125);
+}
+
+.money {
+    text-align: right;
+}
