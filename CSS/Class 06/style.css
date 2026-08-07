@@ -1,0 +1,99 @@
+h1 {
+    color: red;
+}
+
+
+/* input {
+    font-size: 16px;
+    color: blue;
+    background-color: rgb(197, 194, 194);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px 5px 30px;
+    background-image: url("./assets/email.png");
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+
+}
+
+input:focus {
+    outline: none;
+} */
+
+
+/* button {
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(68, 139, 219);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 2px gray;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(43, 121, 211);
+
+} */
+/* 
+fieldset {
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid gold;
+}
+
+legend {
+    text-align: left;
+} */
+
+
+
+/* .container {
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: red;
+    position: relative;
+    position: absolute;
+    top: 0px;
+}
+
+.box2 {
+    background-color: green;
+    z-index: 9999;
+    position: relative;
+}
+
+.box3 {
+    background-color: blue;
+} */
+
+
+/* .box {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+} */
+
+.heading {
+    text-align: center;
+    background-color: gold;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
