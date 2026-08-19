@@ -1,0 +1,166 @@
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* @keyframes   */
+
+/* animation property  */
+
+/* @keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+} */
+
+
+/* @keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+/* @keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: purple;
+    }
+} */
+
+
+/* .box {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation: colorChange 3s ease 1s infinite alternate forwards;
+} */
+
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation: zoom 2s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+}
+
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+} */
+
+/* .box:hover {
+    animation-play-state: paused;
+} */
+
+
+/* @keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: slideIn 1s ease-out;
+} */
+
+
+
+.typing {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+
+    animation: typing 4s steps(25) forwards, blink 0.7s infinite;
+
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 25ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
