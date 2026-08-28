@@ -1,0 +1,10 @@
+git init ===> initialized git repo.
+
+git config --global user.name "Meer Quais"
+git config --global user.email "meerquais017@gmail.com"
+
+
+git add . ===> track every single file in the folder.
+git commit -m "first GitHub repo" ==> commit the changes.
+git remote add origin https://github.com/meerquais/batch-23-github-demo.git
+git push origin -u master
