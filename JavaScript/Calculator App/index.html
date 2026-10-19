@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <div class="display">
+            <div class="expression" id="expression">calculate</div>
+            <input type="text" id="input" placeholder="0" disabled>
+        </div>
+
+        <div class="buttons">
+            <button class="ac" onclick="allClear()">AC</button>
+            <button onclick="addValue('/')">÷</button>
+            <button onclick="addValue('*')">×</button>
+            <button class="clear" onclick="valueClear()">⌫</button>
+
+            <button onclick="addValue(7)">7</button>
+            <button onclick="addValue(8)">8</button>
+            <button onclick="addValue(9)">9</button>
+            <button class="operator" onclick="addValue('-')">−</button>
+
+            <button onclick="addValue(4)">4</button>
+            <button onclick="addValue(5)">5</button>
+            <button onclick="addValue(6)">6</button>
+            <button class="operator" onclick="addValue('+')">+</button>
+
+            <button onclick="addValue(1)">1</button>
+            <button onclick="addValue(2)">2</button>
+            <button onclick="addValue(3)">3</button>
+            <button class="equals" onclick="calculate()">=</button>
+
+            <button class="dot" onclick="addValue('.')">.</button>
+            <button onclick="addValue(0)">0</button>
+            <button onclick="addValue('%')">%</button>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
