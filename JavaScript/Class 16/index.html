@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While Loop!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+
+    <!-- <a href="javascript:void(0)" onclick="console.log('Button clicked!')"
+      >Click Me!</a
+    > -->
+
+    <!-- <button onclick="console.log('Button clicked!')">Click Me!</button> -->
+
+    <!-- <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKnLDiORAPaRs57GxxzrwN078_4UHTWj5uxl7U37H4XPKlykxWJUw8YbV&s=10"
+      width="200"
+      height="200"
+      alt="Image"
+      onmouseout="
+        src =
+          'https://images.twinkl.co.uk/tr/raw/upload/u/ux/lightbulb-1875247-1920_ver_1.jpg'
+      "
+      onmouseover="
+        src =
+          'https://cdn.britannica.com/41/129641-050-D30CA107/lightbulb-invention-Thomas-Alva-Edison-1879.jpg'
+      "
+    /> -->
+
+    <!-- <input
+      type="text"
+      id="input"
+      placeholder="Type something..."
+      onfocus="this.style.backgroundColor = 'blue'"
+      onblur="this.style.backgroundColor = 'white'"
+    /> -->
+
+    <!-- <form onsubmit="checkAddress('email')">
+      Email:
+      <input type="text" id="email" />
+      <input type="submit" value="Submit" />
+    </form> -->
+    <form>
+      ZIP:<br />
+      <input type="text" id="zip" onBlur="fillCity();" /><br />
+      City:<br />
+      <input type="text" id="city" disabled />
+    </form>
+  </body>
+  <script src="app.js"></script>
+</html>
